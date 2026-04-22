@@ -1,4 +1,5 @@
- public static void rotate(int[] nums,int k){
+class RotateArr{
+public static void rotate(int[] nums,int k){
 
         int n=nums.length;
          k=k%n;
@@ -26,3 +27,4 @@
         rotate(nums, 3);
         System.out.println(Arrays.toString(nums));
     }
+}
